@@ -17,12 +17,12 @@ Use the `git clone` command and paste the clone URL then press enter :
 $ git clone https://github.com/your-username/your-repositary.git
 ```
 
-2. On your local machine go inside of the ** directory :
+2. On your local machine go inside of the *SimpleWebPage_Js* directory :
 
 ```shell
-$ cd
+$ cd SimpleWebPage_Js
 ```
-3. You can see the different files by using the `ls` command :br/>
+3. You can see the different files by using the `ls` command :<br/>
 
 ```shell
 $ ls
@@ -41,9 +41,19 @@ $ cat wanted_exercise_file.js
 
 ## Run the app ##
 
-1. On your command line use the `pwd` command to see the paath of your *html* file:
+1. On your command line, from your root directory, use the `pwd` command to see the path of your *html* file:
 
 ```shell
 $ pwd
-$ /Users/yourUsername/Desktop/directory-of-your-project/
+$ /Users/yourUsername/Desktop/directory-of-your-project/SimpleWebPage_Js
 ```
+
+2. In your browser copy and past this path, and add at the end of it */index.html* <br/>
+The page will be displayed on your browser.
+
+3. If you use google chrome you can also open the page on your browser directly from your command line from your root directory, by using the command `open -a “Google Chrome” "index.html"` :
+
+```shell
+$ open -a “Google Chrome” "index.html"
+```
+Your page will be opened on your browser.
