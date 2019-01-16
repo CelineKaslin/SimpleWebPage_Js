@@ -54,6 +54,6 @@ The page will be displayed on your browser.
 3. If you use google chrome you can also open the page on your browser directly from your command line from your root directory, by using the command `open -a “Google Chrome” "index.html"` :
 
 ```shell
-$ open -a “Google Chrome” "index.html"
+$ open -a “Google Chrome” index.html
 ```
 Your page will be opened on your browser.
